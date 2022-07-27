@@ -1,0 +1,497 @@
+* {
+    box-sizing: border-box;
+    margin: 0% ;
+    padding: 0%;
+}
+:root {
+    --color-principal: #f25f3a;
+    --color-secundario:#232c51;
+}
+
+body {
+    background-image: url(/img/bg-tablet-pattern.svg); 
+    
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    
+}
+main{
+    margin: 1% 1.5%;
+    width: 100%;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    display: flex;
+    width: 120px;
+    height: auto;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size:13px ;
+    text-align: center;
+    /* word-spacing: 15px;
+    text-overflow:clip ; */
+}
+a {
+    text-decoration: none;
+    color: var(--color-secundario);
+    margin-right: 15px;
+}
+nav ul a:hover{
+    color: #8C8C94;
+}
+.column2 nav ul li a:hover{
+    color: #f25f3a;
+} 
+.listafooter2 li a:hover{
+    color: #f25f3a;
+}
+.column1 ul li a:hover{
+    color: #f25f3a;
+}
+
+.buttonstart {
+    background-color:#f25f3a;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px black;
+    border: 0 ;
+    Width: 134px;
+    Height: 44px;
+    color: white;
+}
+.botondelascard:hover{
+    opacity: 80%;
+}
+.botondelnav:hover{
+    opacity: 80%;
+}
+.buttonstart:hover{
+    opacity: 80%;
+}
+.buttonstart2:hover{
+    opacity: 80%;
+}
+.buttonstartfooter:hover{
+    opacity: 80%;
+}
+h1 {    
+    display: flex;
+    font-size:56px;}
+h1, h2, h4 {    color: var(--color-secundario);
+        font-weight: 700px;
+}
+h2{
+    font-size: 40px;
+}
+.sectiontitle {
+    display: flex;
+    margin-bottom: 80px;   
+    height: auto;
+    width: 100%;
+}
+.title {
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start;
+    height: auto;
+    margin-top: 100px;}
+    
+.title p {
+    margin-top: 30px;
+}
+
+.title button {
+    margin-top: 30px;
+}
+
+.pdeltitle{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end; 
+    margin-top:30%;
+}
+
+
+.partedelmedio{
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    justify-content: space-around;
+    
+}   
+.partedelmedio p{
+    margin-top: 30px;
+}
+.Subtituloyp{
+    margin-right: 15%;
+    margin-top: 30px;
+}
+.listaol {
+    display: flex;
+    align-items: flex-start;
+    margin-top:0px;
+    }
+.listaol ol li {
+        margin-bottom:10px;
+        margin-top: 30px;
+    }
+.listaol ol li article {
+    color: rgba(179, 178, 183, 1);
+    padding-top: 20px;
+}
+.list { 
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    bottom: 15px;
+}
+/* las cartas */ 
+
+.titulocartas { 
+    text-align: center;
+    margin-top: 100px;
+}
+.botondelascard {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cartas {
+    display: flex;
+    margin: 50px 0px ;
+    text-align: center;
+    gap: 10px;
+    align-items: flex-end; 
+    height: 300px;
+    justify-content: space-around;
+}
+.card3{ 
+    padding-bottom: 20px;
+}
+
+/* Footer */
+
+.finaldemain{
+    background-color: var(--color-principal);
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.finaldemain h2{
+    color: white;
+    font-size: 40px;
+}
+.buttonstart2{
+    background-color:white;;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px black;
+    border: 0 ;
+    Width: 134px;
+    Height: 44px;
+    color:#f25f3a;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 15px;
+}
+
+/* Footer propiamente dicho */
+
+.container-footer{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 5%;
+    height: 250px;
+    gap: 12%;
+    width: 100%;
+    
+}
+.column1{
+    display: flex;
+    /* width: min-content; */
+    flex-direction: column;
+    align-content: space-between;
+    
+}
+.logoinf {
+    display: flex;
+    align-self: flex-start;
+    padding-bottom: 80px;
+    height: auto;
+}
+.iconos{
+    list-style-type:none;
+    display: flex;
+    align-self: flex-end;
+    margin-left: 10px;
+    height: auto;
+}
+    
+
+.column2{
+    display: flex;
+    justify-content:space-between;
+    height: 151px;
+    flex-wrap: wrap;
+    width: 390px;
+}
+.column2 nav ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.listafooter2 li a{
+    color: white;
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.column3 {
+    display:flex;
+}
+.copy{
+    display: flex;
+    align-items: flex-end;
+    font-size: 12.5px;
+    color:#8C8C94;
+    margin-top: 80px;
+}
+
+
+.lugarparaescribir{
+    width: 140px;
+    height: 44px;
+    border-radius: 50px;
+    padding-left: 5px;
+}
+.buttonstartfooter{
+    background-color:#f25f3a;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px;
+    border: 0 ;
+    Width: 50px;
+    Height: 44px;
+    color: white;
+}
+.contenedortodo{
+    width: 100%;
+}
+.imagenburger{
+    display: none;
+}
+.contenedordearribasincard{
+    margin: 2%;
+    padding: 2%;
+}
+p{
+    color:#8c8c94a2
+}
+.copy2 {
+    display: none;
+}
+.slide{
+    display: none;
+}
+
+
+@media (max-width: 500px)
+{
+    .contenedortodo{
+        display:flex;
+        flex-direction: column;
+    }
+    .nav{
+        display: none;
+        
+    }
+    .botondelnav {
+        display: none;  
+    }
+    .imagenburger{
+        display: inline;
+    }
+
+    .sectiontitle{
+    flex-direction: column-reverse;
+    margin-top: 31px;
+    text-align: center;
+    }
+    .title{
+        align-items: center;
+    }
+    .sectiontitle h1{
+        position: relative;
+        bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+    }
+    .title p {
+        margin: auto;
+    }
+    .buttonstart{
+        align-self: center;
+    }
+    .partedelmedio{
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h4{
+        background-color: #f25f3a13;
+        padding: 2px;
+        font-size: 16px;
+    }
+    .listaol ol li article {        
+    margin-left: -67px;
+    }
+    .Subtituloyp{
+        margin-right: 0%;
+        margin-bottom: 25px; 
+    }
+    ol{
+        text-align: initial;
+        margin-left: 57px;
+    }
+    .titulocartas {
+        margin: 20px;
+    }
+    .card1, .card3{
+        display: none;
+    }
+    .card2 {
+        margin: 15px;
+        font-size: 16px;
+        padding: 15px;
+    }
+    .botondelascard{
+        margin-bottom: 50px;
+    }
+    .finaldemain{
+        flex-direction: column;
+        padding: 17%;
+        text-align: center;
+    }
+    .finaldemain h2 {
+        font-size: 32px;
+    }
+    .botonblanco {
+        align-self: center;
+        margin: 10px;
+    }
+    .container-footer{
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .logoinf{
+        margin: 0%;
+        align-self: center;
+        padding: 3%;
+        order: 1;
+    }
+    .column2{
+        width: auto;
+    }
+    .column3{
+        align-items: center;
+        
+    }
+    .buttonstartfooter {
+        width: 78px;
+    }
+    .lugarparaescribir{
+        width: 233px;
+        height: 50px;
+        margin-bottom: 24px;
+    }
+    .formulario{
+        margin: 30px 0 ;
+    }
+    .formulario .copy {
+        display: none;
+    }
+    .column1{
+        width: min-content;
+        margin-left: -2px;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .iconos{
+        gap: 15px;
+        margin-top: 30px;
+        order: 2;
+    }
+    .copy2{
+        display: flex;
+        width: max-content;
+        order: -1;
+    }
+    .Pinterest {
+        order: 4;
+    }
+    .Inst {
+        order: 5;
+    }
+    .Twitter {
+        order: 3;
+    }
+    .Youtube {
+        order: 2;
+    }
+    .Face {
+        order: 1;
+    }
+    .slide{
+        display: flex;
+        position: absolute;
+    }
+    .guia{
+        display: flex;
+        justify-content: center;
+    }
+    .botones{
+        border: 1px solid var(--color-principal);
+        border-radius: 100%;
+        width: 10px;
+        height: 10px;
+        margin: 1px
+    }
+    .botones:hover{
+        background-color: #f25f3a;
+    }
+    .botones1{
+        border: 1px solid var(--color-principal);
+        border-radius: 100%;
+        width: 10px;
+        height: 10px;
+        margin: 1px;
+        background-color: #f25f3a;
+        
+    }
+    /* .botones1:hover{
+        background-color: white;
+    } */
+    }
+
+
+
+    
